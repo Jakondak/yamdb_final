@@ -24,9 +24,9 @@ jobs:
     - name: Test with flake8 and django tests
       run: |
         # запуск проверки проекта по flake8
-        python -m flake8 --exclude tests,infra_project/infra_app/migrations,infra_project/infra_project/settings.py,venv
+        python -m flake8 --exclude tests,yamdb_final/api_yamdb/api_yamdb/migrations,yamdb_final/api_yamdb/api_yamdb/settings.py,venv
         # перейти в папку, содержащую manage.py —
-        #<корневая_папка_infra_actions>/<папка_проекта>/manage.py
+        yamdb_final/api_yamdb/manage.py
         cd infra_project/
         # запустить написанные разработчиком тесты
         python manage.py test
