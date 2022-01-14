@@ -27,7 +27,7 @@ jobs:
         python -m flake8 --exclude tests,yamdb_final/api_yamdb/api/permissions.py,yamdb_final/api_yamdb/api_yamdb/migrations,yamdb_final/api_yamdb/api_yamdb/settings.py,venv
         # перейти в папку, содержащую manage.py —
         api_yamdb/manage.py
-        cd infra_project/
+        cd api_yamdb/
         # запустить написанные разработчиком тесты
         python manage.py test
   build_and_push_to_docker_hub:
