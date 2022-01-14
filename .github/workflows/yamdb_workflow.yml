@@ -26,7 +26,7 @@ jobs:
         # запуск проверки проекта по flake8
         python -m flake8 --exclude tests,yamdb_final/api_yamdb/api/permissions.py,yamdb_final/api_yamdb/api_yamdb/migrations,yamdb_final/api_yamdb/api_yamdb/settings.py,venv
         # перейти в папку, содержащую manage.py —
-        yamdb_final/api_yamdb/manage.py
+        api_yamdb/manage.py
         cd infra_project/
         # запустить написанные разработчиком тесты
         python manage.py test
