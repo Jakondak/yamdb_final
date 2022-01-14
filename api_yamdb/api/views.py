@@ -1,5 +1,8 @@
 import uuid
 
+from api.filters import TitlesFilter
+from api.permissions import IsAdmin, IsAuthorOrReadOnly, IsModerator, ReadOnly
+from api.serializers import UserSerializer, UserSerializerWithoutRole
 from django.conf import settings as conf_settings
 from django.core.mail import send_mail
 from django.db.models import Avg
@@ -11,10 +14,6 @@ from rest_framework.permissions import AllowAny, IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework_simplejwt.tokens import RefreshToken
-
-from api.filters import TitlesFilter
-from api.permissions import IsAdmin, IsAuthorOrReadOnly, IsModerator, ReadOnly
-from api.serializers import UserSerializer, UserSerializerWithoutRole
 from reviews.models import Category, Genre, Review, Title
 from users.models import User
 
