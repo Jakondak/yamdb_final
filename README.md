@@ -7,4 +7,4 @@ The project collects user reviews (Review) for works (Titles). Works are divided
 - /admin
 - /redoc
 
-### Server address: 51.250.3.146 [here](51.250.3.146)
+### Server address:  [here](http://51.250.3.146)
