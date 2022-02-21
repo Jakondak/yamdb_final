@@ -8,3 +8,16 @@ The project collects user reviews (Review) for works (Titles). Works are divided
 - /redoc
 
 ### Server address:  [here](http://51.250.3.146)
+
+### How can you run this web service on your server:
+
+**1)**
+```
+git clone
+```
+
+**2)** Set up a remote server
+
+**3)** Set up all github's secrets. You can find them in the yamdb_workflow.yml file.
+
+**4)** Make a ```git commit``` command
