@@ -11,10 +11,7 @@ The project collects user reviews (Review) for works (Titles). Works are divided
 
 ### How can you run this web service on your server:
 
-**1)**
-```
-git clone
-```
+**1)** ```git clone```
 
 **2)** Set up a remote server
 
